@@ -1,0 +1,15 @@
+my_list = ('apple' , 'banana' , 'kiwi' , 'lemon')
+print(my_list)
+print('first element: ' + my_list[0])
+print('last element: ' + my_list[-1])
+print(my_list[2:5])
+Modified_list = ('apple' , 'banana' , 'orange' , 'lemon')
+print(Modified_list)
+a = ('Dictionary: ')
+my_dict = {'apple': 'яблоко' , 'banana': 'банан', 'lemon': 'лимон'}
+print((a), (my_dict))
+b = ('Translation: ')
+print((b), (my_dict['lemon']))
+my_dict2 = {'apple': 'яблоко' , 'banana': 'банан', 'orange': 'апельсин'}
+c = ('Modified_dictionary')
+print((c), (my_dict2))
